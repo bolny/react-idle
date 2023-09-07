@@ -6,7 +6,7 @@
     },
     "clean" : {
       "enabled" : true,
-      "script" : "#!\/bin\/sh\n\nmake clean_frontend"
+      "script" : "#!\/bin\/sh\n\nmake frontend_clean"
     },
     "run" : {
       "enabled" : true,
