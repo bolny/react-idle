@@ -1,0 +1,17 @@
+{
+  "name": "frontend",
+  "version": "0.0.1",
+  "description": "frontend for react demo application.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-debug": "tsc --sourcemap --project .",
+    "dev": "http-server ./build"
+  },
+  "author": "Brendon O'Laney",
+  "license": "0BSD",
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "http-server": "^14.1.1"
+  }
+}

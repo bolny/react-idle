@@ -1,0 +1,16 @@
+version: '3.7'
+
+services:
+    frontend:
+        build:
+            context: ./frontend
+            dockerfile: Dockerfile
+        volumes:
+            - ./frontend/src:/home/app/src
+            - ./frontend/build:/home/app/build
+        container_name: react-idle_frontend
+        expose:
+            - '8080'
+        ports:
+            - '8080:8080'
+        command: npm run dev

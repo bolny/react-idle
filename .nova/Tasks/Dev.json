@@ -1,0 +1,16 @@
+{
+  "actions" : {
+    "build" : {
+      "enabled" : true,
+      "script" : "#!\/bin\/sh\n\nmake frontend"
+    },
+    "clean" : {
+      "enabled" : true,
+      "script" : "#!\/bin\/sh\n\nmake clean_frontend"
+    },
+    "run" : {
+      "enabled" : true,
+      "script" : "#!\/bin\/sh\n\ndocker-compose up\n"
+    }
+  }
+}
