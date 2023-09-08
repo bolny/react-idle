@@ -1,19 +1,19 @@
 default: dev
-.PHONY: js html
+.PHONY: html js ts
 
-dev: js html ts
+dev: html js
 
 build/:
 	mkdir -p ./build
 
-js: build/
-	npm run build-debug
+js: ts
+	node esbuild.mjs
+	
+ts:
+	./node_modules/.bin/tsc --project .	
 	
 html:
-	cp ./src/*.html ./build
-
-ts:
-	cp ./src/*.ts ./build
+	cp -R ./src/*.html ./build
 	
 clean:
 	rm -rf build/

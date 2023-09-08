@@ -1,17 +1,23 @@
 {
-  "name": "frontend",
-  "version": "0.0.1",
-  "description": "frontend for react demo application.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build-debug": "tsc --sourcemap --project .",
-    "dev": "http-server ./build"
-  },
-  "author": "Brendon O'Laney",
-  "license": "0BSD",
-  "devDependencies": {
-    "typescript": "^5.2.2",
-    "http-server": "^14.1.1"
-  }
+    "name": "frontend",
+    "version": "0.0.1",
+    "description": "frontend for react demo application.",
+    "main": "index.js",
+    "scripts": {
+        "build-debug": "tsc --sourcemap --project .",
+        "dev": "http-server ./build"
+    },
+    "author": "Brendon O'Laney",
+    "license": "0BSD",
+    "devDependencies": {
+        "@types/react": "^18.2.21",
+        "@types/react-dom": "^18.2.7",
+        "esbuild": "^0.19.2",
+        "http-server": "^14.1.1",
+        "typescript": "^5.2.2"
+    },
+    "dependencies": {
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    }
 }

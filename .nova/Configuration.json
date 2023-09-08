@@ -1,4 +1,10 @@
 {
+  "apexskier.typescript.config.formatDocumentOnSave" : "true",
+  "apexskier.typescript.config.isEnabledForJavascript" : "Enable",
+  "apexskier.typescript.config.organizeImportsOnSave" : "true",
+  "apexskier.typescript.config.skipDestructiveOrganizeImports" : "False",
+  "apexskier.typescript.config.userPreferences.includeCompletionsForImportStatements" : false,
+  "apexskier.typescript.config.userPreferences.quotePreference" : "double",
   "workspace.art_style" : 0,
   "workspace.name" : "React Idle Game Demo"
 }
