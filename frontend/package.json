@@ -2,11 +2,7 @@
     "name": "frontend",
     "version": "0.0.1",
     "description": "frontend for react demo application.",
-    "main": "index.js",
-    "scripts": {
-        "build-debug": "tsc --sourcemap --project .",
-        "dev": "http-server ./build"
-    },
+    "main": "index.tsx",
     "author": "Brendon O'Laney",
     "license": "0BSD",
     "devDependencies": {
