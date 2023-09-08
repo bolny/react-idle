@@ -6,13 +6,13 @@ dev: html js
 build/:
 	mkdir -p ./build
 
-js: ts
+js: ts build/
 	node esbuild.mjs
 	
 ts:
 	./node_modules/.bin/tsc --project .	
 	
-html:
+html: build/
 	cp -R ./src/*.html ./build
 	
 clean:
