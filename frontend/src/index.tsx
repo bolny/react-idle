@@ -1,3 +1,5 @@
-import * as ReactDOM from "react-dom";
+import { createRoot } from "react-dom/client";
+import CurrentFightInfo from "./CurrentFightInfo";
 
-ReactDOM.render(<div>Hello!</div>, document.getElementById("app"));
+const root = createRoot(document.getElementById("root"));
+root.render(<CurrentFightInfo />);
