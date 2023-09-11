@@ -13,5 +13,6 @@
       "script" : "#!\/bin\/sh\n\ndocker-compose up\n"
     }
   },
-  "openLogOnRun" : "fail"
+  "openLogOnRun" : "start",
+  "persistent" : true
 }

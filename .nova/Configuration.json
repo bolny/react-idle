@@ -1,7 +1,7 @@
 {
   "apexskier.typescript.config.formatDocumentOnSave" : "true",
   "apexskier.typescript.config.isEnabledForJavascript" : "Enable",
-  "apexskier.typescript.config.organizeImportsOnSave" : "true",
+  "apexskier.typescript.config.organizeImportsOnSave" : "false",
   "apexskier.typescript.config.skipDestructiveOrganizeImports" : "False",
   "apexskier.typescript.config.userPreferences.includeCompletionsForImportStatements" : false,
   "apexskier.typescript.config.userPreferences.quotePreference" : "double",
