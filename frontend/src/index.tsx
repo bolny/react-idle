@@ -1,5 +1,5 @@
 import { createRoot } from "react-dom/client";
-import CurrentFightInfo from "./CurrentFightInfo";
+import Game from "./Game";
 
 const root = createRoot(document.getElementById("root"));
-root.render(<CurrentFightInfo />);
+root.render(<Game />);
